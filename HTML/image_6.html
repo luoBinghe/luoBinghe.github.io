@@ -1,0 +1,134 @@
+<html>
+	<head>
+	<style>
+	.projeto{
+		width: 1000px;
+		height: 1155px;
+		background: #000000;
+		margin: auto;
+	}
+	.border{
+		width: 1003px;
+		height: 1158px;
+		padding-top: 3px;
+		padding-left: 3px;
+		border-style: outset;
+		border-width: 3px 3px 3px 3px;
+		background: #afafaf;
+		margin: auto;
+	}
+	.composition{
+		width: 1000px;
+		height: 1000px;
+		background: #000000;
+		margin: auto;
+	}
+	.borda{
+		width: 1000px;
+		height: 35px;
+	}
+	.header2 {
+		width: 992px;
+		max-width: 1000px;
+		height: 35px;
+		max-height: 35px;
+		display: flex;
+		align-items: center;
+		padding-left: 8px;
+		background: #afafaf;
+
+	}
+	.imageFooter{
+		position: absolute;
+		float:center;
+		margin-top: 5px;
+	}
+	.imageFooter:hover {
+		border: 1px solid #afafaf;
+	}
+	.audio-img{
+		width: 1000px;
+		height: 50px;
+		max-height: 50px;
+		background: #afafaf;
+	}
+	audio::-webkit-media-controls-panel {
+		background-color: #afafaf;
+		border-radius:0px;
+		height: 50px;
+		max-height: 50px;
+	}
+	.wallpaper{
+		background-image: url("imagens/wallpaper.jpg");
+		background-attachment: fixed;background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	</style>
+	</head>
+    <body class="wallpaper">
+	<div class="border">
+	<div class="projeto">
+		<div class="borda" style="background: #000fe0;">	
+			<img
+			src="header/fechar.png"
+			width="25"
+			height="25"
+			style="float:right; margin:5px 5px 5px 0px">	
+			<img
+			src="header/maximizar.png"
+			width="25"
+			height="25"
+			style="float:right; margin:5px 5px 5px 0px">	
+			<img
+			src="header/minimizar.png"
+			width="25"
+			height="25"
+			style="float:right; margin:5px 5px 5px 0px">		
+		</div>
+	
+		<div class="header2">
+			<p><a href="sum.html"><u>F</u>ile</a></p>
+			<p>­ ­ ­ <a href="edit.html"><u>E</u>dit</a></p>
+			<p>­ ­ ­ <a href="image_6-e.html"><u>V</u>iew</a></p>
+			<p>­ ­ ­ <a href="logica.html"><u>H</u>elp</a></p>
+		</div>
+		
+		<div class="composition" style="background-image: url('imagens/Illustration6.png')">
+		</div>
+		
+		<audio controls autoplay class="audio-img">
+			<source src="audio/audio_6.mp3" type="audio/mpeg" >
+		</audio>
+
+		<div class="borda" style="background: #afafaf;">
+			<a href="start.html"><img
+			src="header/skip-a.png"
+			height="20"
+			class="imageFooter"
+			style="margin-left: 379px;"></a>
+			
+			<a href="image_5-e.html"><img
+			src="header/previous.png"
+			height="20"
+			class="imageFooter"
+			style="margin-left: 438px;"></a>
+
+			<a href="image_6-e.html"><img
+			src="header/next.png"
+			height="20"
+			class="imageFooter"
+			style="margin-left: 539px;"></a>
+
+			<a href="end.html"><img
+			src="header/skip.png"
+			height="20"
+			class="imageFooter"
+			style="margin-left: 592px;"></a>
+		</div>
+	</div>
+	</div>
+	</body>
+
+</html>
+
